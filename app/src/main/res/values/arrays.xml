@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dropDownItems">
+        <item>Gulshan</item>
+        <item>Gazipur</item>
+        <item>Badda</item>
+        <item>Nodda</item>
+        <item>Kamarpara</item>
+        <item>Tongi</item>
+    </string-array>
+</resources>
