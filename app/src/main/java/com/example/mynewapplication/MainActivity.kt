@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         val button = R.id.buttonLogin
 
 
-        setContentView(R.layout.activity_signup)
+        setContentView(R.layout.activity_otp)
     }
 }
