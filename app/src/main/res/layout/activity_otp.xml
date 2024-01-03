@@ -7,7 +7,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
         <!--Otp Title-->
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/otpTitle"
@@ -47,11 +48,9 @@
             app:layout_constraintTop_toBottomOf="@id/otpDescription">
 
             <com.google.android.material.textfield.TextInputLayout
-
                 android:id="@+id/otpTf1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 app:boxCornerRadiusBottomEnd="8dp"
                 app:boxCornerRadiusBottomStart="8dp"
@@ -59,6 +58,7 @@
                 app:boxCornerRadiusTopStart="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -76,7 +76,6 @@
                 android:id="@+id/otpTf2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 app:boxCornerRadiusBottomEnd="8dp"
                 app:boxCornerRadiusBottomStart="8dp"
@@ -84,6 +83,8 @@
                 app:boxCornerRadiusTopStart="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -101,7 +102,6 @@
                 android:id="@+id/otpTf3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
 
                 android:layout_weight="1"
                 app:boxCornerRadiusBottomEnd="8dp"
@@ -110,6 +110,8 @@
                 app:boxCornerRadiusTopStart="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
@@ -127,7 +129,6 @@
                 android:id="@+id/otpTf4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 app:boxCornerRadiusBottomEnd="8dp"
                 app:boxCornerRadiusBottomStart="8dp"
@@ -135,6 +136,7 @@
                 app:boxCornerRadiusTopStart="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:imeOptions="actionDone"

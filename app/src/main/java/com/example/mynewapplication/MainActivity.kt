@@ -8,9 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val button = R.id.buttonLogin
 
-
-        setContentView(R.layout.activity_otp)
+        setContentView(R.layout.activity_login)
     }
 }
