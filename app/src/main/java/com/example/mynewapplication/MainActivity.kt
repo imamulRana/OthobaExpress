@@ -1,6 +1,7 @@
 package com.example.mynewapplication
 
 import android.os.Bundle
+import android.widget.TableLayout
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 
@@ -9,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.delivery_tab_layout)
     }
 }
